@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'spirequalLightRegular';
+  src: url("spireq_l-webfont.eot");
+  src: url("spireq_l-webfont.eot?#iefix") format("embedded-opentype"), url("spireq_l-webfont.woff") format("woff"), url("spireq_l-webfont.ttf") format("truetype"), url("spireq_l-webfont.svg#spirequalLightRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #f6f1db;
+}
+
+#header {
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+
+	-webkit-box-shadow: #331411 0 5px 15px;
+	-moz-box-shadow: #331411 0 5px 15px;
+	box-shadow: #331411 0 5px 15px;
+
+	border-bottom: 1px solid #ddd;
+	background: #331411;
+	color: #f6f1db;
+}
+
+#logo {
+	width: 150px;
+	margin: auto;
+}
+
+#nav {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav li {
+	display: inline;
+	padding: 0 10px;
+	line-height: 40px;
+}
+
+#nav a {
+	position: relative;
+	z-index: 20;
+	text-decoration: none;
+	color: #f6f1db;
+}
+
+#nav a:hover {
+	text-decoration: underline;
+}
+
+#catch-phrase {
+	position: relative;
+	font-family: "spirequalLightRegular";
+	text-align: center;
+	font-size: 50px;
+	padding: 20px;
+
+	color: #331411;
+	z-index: 2;
+}
+
+.images img {
+	position: relative;
+
+	-webkit-box-shadow: #331411 0 0 30px;
+	-moz-box-shadow: #331411 0 0 30px;
+	box-shadow: #331411 0 0 30px;
+
+	border: 1px solid #ddd;
+
+	display: block;
+	margin: 40px auto;
+}
+
