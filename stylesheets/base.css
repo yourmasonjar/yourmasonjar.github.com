@@ -80,6 +80,7 @@ html, body {
 
 #content {
 	margin: auto;
+	padding-bottom: 60px;
 	max-width: 720px;
 }
 
