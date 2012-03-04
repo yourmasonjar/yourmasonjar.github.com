@@ -65,7 +65,7 @@ html, body {
 	z-index: 2;
 }
 
-.images img {
+#images img, #content img {
 	position: relative;
 
 	-webkit-box-shadow: #331411 0 0 30px;
@@ -76,15 +76,25 @@ html, body {
 
 	display: block;
 	margin: 40px auto;
+	
+	max-width: 90%;
 }
 
 #content {
 	margin: auto;
-	padding-bottom: 60px;
+	padding: 20px 40px 60px 40px;
 	max-width: 720px;
 }
 
 #about img {
 	float: right;
 	margin: 0 40px;
+}
+
+#contact label {
+	display: block;
+}
+
+#contact input, #contact textarea {
+	margin-bottom: 20px;
 }
