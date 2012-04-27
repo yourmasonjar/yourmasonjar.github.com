@@ -8,20 +8,7 @@ The Artist
 
 <img src="/images/artist.jpg" alt="The Artist"/>
 
-I'm Dedra Fortenberry. I'm a nurse, and these days I'm also a photographer; thanks to all of my awesome clients!
-
-Photography is something I've felt passionate about since I was a kid. I've always realized the significance of photographs. When the moment is gone, a picture is often all that remains to help tell the story.
-
-I graduated from nursing school in 08, and I love working as a pediatric nurse. Photography is not something that I ever pursued as a career. I didn't wake up one day and decide to do this as a job. I can honestly say that everything fell into place and was outside of my control. It's a door I feel God opened for me, and I couldn't be happier that He did! It's a blessing beyond my wildest imagination.
-
-Most of my work revolves around engagement, bridal, and wedding photography. Weddings are my absolute favorite, but each and every shoot I've ever been a part of has been special to me in some way. I learn something each time I get behind the lens, and I hope I never stop learning. 
-
-Hopefully, if you've seen my work on the site, you have been able to get a pretty good idea of what "my style" is all about. In a nutshell, I like capturing and creating unique images. Everyone is different, so my main focus is to capture the personalities, not just the faces, of the peeps I'm photographing! Also, I do this because I LOVE it, so fun is always a must.
-
-
-On a personal note, I'm married to Eric, my high school sweetheart. He's my sidekick at most of my shoots. He rocks my socks. This site is his handy work; thank goodness for a hubby with a talent for web design! We have no kiddos at the present,  but we have an adorable mini schnauzer named Boudreaux (AKA best dog in the universe). We live in Florence, have great families and friends, and a totally sweet life.
-
-I'd love the chance to document your life-- just shoot me an <a href="/contact/">e-mail</a> or give me a <a href="/contact/">call</a>!
-
-Also, be sure to check out my <a href="http://pixeldustms.wordpress.com" target="_blank">blog</a> to see my latest work!
-
+I'm Dedra Fortenberry. I'm a mom, a wife, a nurse. These days, I'm also a photographer, thanks to my many wonderful clients! Photography is such a cool blessing in my life, one that allows me to meet awesome people and use my creativity.
+I'm married to Eric, my high school sweetheart (yep, we're THOSE people), and we live in the little town of Florence, MS. He's my best friend, my sidekick at many of my shoots and the brains on the web side of this business. This site is actually his handiwork. We have one handsome little boy and a dog named Boudreaux (aka best dog in the universe). 
+My photog business was previously known as Pixeldust Photography. Mason Jar Photography is a pursuit in a somewhat different direction. The idea behind Mason Jar Photography is simple, fun photography that is true to what I love to create. It’s primarily about weddings, but entirely about what I feel I’ve become as a photographer. It embodies my homegrown, Southern lifestyle, which I feel always manages to be reflected in my work. So, welcome to Mason Jar Photography. 
+Your memories are like fireflies, let me be your mason jar.
