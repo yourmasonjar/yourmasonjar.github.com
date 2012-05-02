@@ -39,8 +39,10 @@ html, body {
 
 #nav li {
 	display: inline;
-	padding: 0 10px;
-	line-height: 40px;
+	padding: 0 32px;
+	overflow: hidden;
+	height: 40px;
+	margin-bottom: 10px;
 }
 
 #nav a {
