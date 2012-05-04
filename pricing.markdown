@@ -2,12 +2,11 @@
 layout: default
 name: pricing
 ---
-Pricing
-=======
 
-Weddings -- $1250
------------------
-- Unlimited photography service the day of your event
+<img class="header" src="/images/header_pricing.png" alt="Pricing"/>
+
+<img class="header" src="/images/header_pricing_weddings.png" alt="Weddings"/>
+- Photography service the day of your event
 - Up to two hours coverage at your reception
 - Online proofing of images
 - High resolution disc of edited images along with a signed release to reprint images
@@ -15,8 +14,7 @@ Weddings -- $1250
 
 Coffee table albums available. Inquire for details.
 
-Newborns -- $170
-----------------
+<img class="header" src="/images/header_pricing_newborns.png" alt="Newborns"/>
 *(Newborn sessions take place when your baby is 5-10 days old, so book ahead to ensure availability)*
 
 - Session (approximately 2 hours) at the home of the client
@@ -24,8 +22,7 @@ Newborns -- $170
 - High resolution disc of edited images along with a signed release to reprint images
 - Travel fees may apply
 
-Other Portraits -- $150
------------------------
+<img class="header" src="/images/header_pricing_other.png" alt="Other Portraits"/>
 - Session (approximately 2 hours) at the location of your chioce
 - Online proofing of images
 - High resolution disc of edited images along with a signed release to reprint images
