@@ -31,18 +31,16 @@ html{background:transparent;}
 .wufoo .instruct{border:1px solid #e6e6e6}
 
 /* Typography */
-/*
-.wufoo .info h2{font-size:160%;font-family:inherit;color:#000000}
-.wufoo .info div{font-size:95%;font-family:inherit;color:#444444}
-.wufoo .section h3{font-size:110%;font-family:inherit;background:#FFFFFF;color:#000000}
-.wufoo .section div{font-size:85%;font-family:inherit;color:#444444}
-.wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:inherit;color:#444444}
-.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#444444}
-.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:#333333}
-.wufoo label.choice{color:#444444}
-.wufoo .instruct{font-size:80%;font-family:inherit;color:#444444
-}
-*/
+.wufoo .info h2{font-size:160%;font-family:inherit;color:#F6F1DB}
+.wufoo .info div{font-size:95%;font-family:inherit;color:#F6F1DB}
+.wufoo .section h3{font-size:110%;font-family:inherit;background:#FFFFFF;color:#F6F1DB}
+.wufoo .section div{font-size:85%;font-family:inherit;color:#F6F1DB}
+.wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:inherit;color:#F6F1DB}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#F6F1DB}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:#F6F1DB}
+.wufoo label.choice{color:#F6F1DB}
+.wufoo .instruct{font-size:80%;font-family:inherit;color:#F6F1DB;}
+.wufoo .symbol { color: #F6F1DB; }
 
 /* Drop Shadows */
 #bottom{display:none}
