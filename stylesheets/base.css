@@ -1,3 +1,10 @@
+/* Colors:
+ *	cream: #f6f1db
+ *	blue: #409ca7
+ *	brown: #68370b
+ */
+
+
 @font-face {
   font-family: 'spirequalLightRegular';
   src: url("spireq_l-webfont.eot");
@@ -9,7 +16,8 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background: #f6f1db;
+	background: url(/images/bg.jpg);
+	color: #f6f1db;
 }
 
 #header {
@@ -17,17 +25,17 @@ html, body {
 	text-align: center;
 	padding-top: 20px;
 
-	-webkit-box-shadow: #331411 0 5px 15px;
-	-moz-box-shadow: #331411 0 5px 15px;
-	box-shadow: #331411 0 5px 15px;
+	-webkit-box-shadow: #000 0 5px 30px;
+	-moz-box-shadow: #000 0 5px 30px;
+	box-shadow: #000 0 5px 30px;
 
 	border-bottom: 1px solid #ddd;
-	background: #331411;
-	color: #f6f1db;
+	color: #331411;
+	background: #f6f1db;
 }
 
 #logo {
-	width: 150px;
+	width: 350px;
 	margin: auto;
 }
 
@@ -69,18 +77,24 @@ html, body {
 	font-size: 50px;
 	padding: 20px;
 
-	color: #331411;
+	color: #F6F1DB;
 	z-index: 2;
 }
 
 #images img, #content img {
 	position: relative;
 
+	/*
 	-webkit-box-shadow: #331411 0 0 30px;
 	-moz-box-shadow: #331411 0 0 30px;
 	box-shadow: #331411 0 0 30px;
+	*/
 
-	border: 1px solid #ddd;
+	-webkit-box-shadow: #000 0 0 130px;
+	-moz-box-shadow: #000 0 0 130px;
+	box-shadow: #000 0 0 130px;
+
+	border: 5px solid #fff;
 
 	display: block;
 	margin: 40px auto;

@@ -7,7 +7,7 @@ html {
 #header {
 	position: fixed;
 	width: 200px;
-	left: 20px;
+	left: 75px;
 	height: 100%;
 	border: 1px solid #ddd;
 	border-width: 0 1px;
@@ -15,6 +15,21 @@ html {
 
 #logo {
 	margin-bottom: 20px;
+	margin-left: -75px;
+	position: relative;
+	z-index: 1;
+}
+
+#nav {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 2px;
+	right: 2px;
+	border: 3px solid #2b1706;
+	border-width: 0 3px;
+	z-index: 0;
+	padding-top: 250px;
 }
 
 #nav li {
@@ -22,7 +37,7 @@ html {
 }
 
 #content {
-	margin-left: 240px;
+	margin-left: 350px;
 	padding: 20px;
 }
 
@@ -33,5 +48,5 @@ html {
 }
 
 #images {
-	margin-left: 240px;
+	margin-left: 350px;
 }
