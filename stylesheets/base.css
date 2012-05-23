@@ -5,6 +5,7 @@
  *	dark-brown: #2f1f1d
  */
 
+img { -ms-interpolation-mode: bicubic; }
 
 @font-face {
   font-family: 'spirequalLightRegular';
