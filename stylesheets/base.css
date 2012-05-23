@@ -16,7 +16,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background: url(/images/bg.jpg);
+	background: #68370b url(/images/bg.jpg);
 	color: #f6f1db;
 }
 
