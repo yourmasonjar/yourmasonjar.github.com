@@ -2,6 +2,7 @@
  *	cream: #f6f1db
  *	blue: #409ca7
  *	brown: #68370b
+ *	dark-brown: #2f1f1d
  */
 
 
@@ -16,7 +17,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	background: #68370b url(/images/bg.jpg);
+	background: #2f1f1d url(/images/bg.jpg);
 	color: #f6f1db;
 }
 
