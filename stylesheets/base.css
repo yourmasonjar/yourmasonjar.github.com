@@ -56,10 +56,9 @@ html, body {
 }
 
 #nav li.selected {
-	/*
-	border: 1px solid white;
-	*/
-}
+        border: 1px solid #886c6c;
+        border-width: 1px 0 0 0;
+} 
 
 #nav a {
 	position: relative;

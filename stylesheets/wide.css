@@ -34,7 +34,20 @@ html {
 
 #nav li {
 	display: block;
+	border: 1px solid #F6F1DB;
+	border-width: 1px 0 1px 0;
+	transition: all .5s ease 0s;
+	-webkit-transition: all .5s ease 0s;
+	-moz-transition: all .5s ease 0s;
+	-ms-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
 }
+
+#nav li.selected, #nav li:hover {
+	background: #e0dbbe;
+	border-color: #c9c2ae;
+	border-width: 1px 0 1px 0;
+} 
 
 #content {
 	margin-left: 350px;
