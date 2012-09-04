@@ -11,6 +11,6 @@ I'm Dedra Fortenberry. I'm a mom, a wife, a nurse. These days, I'm also a photog
 
 I'm married to Eric, my high school sweetheart (yep, we're THOSE people), and we live in the little town of Florence, MS. He's my best friend, my sidekick at many of my shoots and the brains on the web side of this business. This site is actually his handiwork. We have one handsome little boy and a dog named Boudreaux (aka best dog in the universe). 
 
-My photog business was previously known as Pixeldust Photography. Mason Jar Photography is a pursuit in a somewhat different direction. The idea behind Mason Jar Photography is simple, fun photography that is true to what I love to create. It's primarily about weddings, but entirely about what I feel I've become as a photographer. It embodies my homegrown, Southern lifestyle, which I feel always manages to be reflected in my work. We've kept the site simple; hopefully the photos will speak for themselves. So, welcome to Mason Jar Photography. 
+My photography business was previously known as Pixeldust Photography. Mason Jar Photography is a pursuit in a somewhat different direction. The idea behind Mason Jar Photography is simple, fun photography that is true to what I love to create. It's primarily about weddings, but entirely about what I feel I've become as a photographer. It embodies my homegrown, Southern lifestyle, which I feel always manages to be reflected in my work. We've kept the site simple; hopefully the photos will speak for themselves. So, welcome to Mason Jar Photography. 
 
-Your memories are like fireflies, let me be your mason jar.
+Your moments are like fireflies, let me be your mason jar.
