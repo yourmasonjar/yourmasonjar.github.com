@@ -131,3 +131,9 @@ html, body {
 #contact input, #contact textarea {
 	margin-bottom: 20px;
 }
+
+#copyright {
+	text-align: center;
+	font-size: .8em;
+	margin: 40px auto;
+}
