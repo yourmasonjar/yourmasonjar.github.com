@@ -1,0 +1,32 @@
+#content.home {
+	max-width: 100%;
+}
+
+#nav-by-img {
+	text-align: center;
+}
+
+#nav-by-img .link {
+	display: inline-block;
+	position: relative;
+}
+
+#nav-by-img a.caption {
+	background: #fff;
+	color: #3f3c32;
+	padding: 1em;
+	border: 1px solid #C9B065;
+
+	display: block;
+	margin: 1em;
+
+	position: absolute;
+	bottom: 3em;
+	left: 0;
+	right: 0;
+	top: auto;
+}
+
+#nav-by-img a.caption:hover {
+	text-decoration: none;
+}

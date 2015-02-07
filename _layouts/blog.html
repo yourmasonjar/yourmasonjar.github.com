@@ -2,17 +2,14 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		{% if page.title %}
-			<title>{{page.title}} - Mason Jar Photography</title>
-		{% else %}
-			<title>Mason Jar Photography</title>
-		{% endif %}
+		<title>{{page.title}} - Mason Jar Photography</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="/stylesheets/generic.css"/>
 		<link rel="stylesheet" type="text/css" href="/stylesheets/base.css"/>
 		<link rel="stylesheet" type="text/css" href="/stylesheets/home.css"/>
 		<link rel="stylesheet" type="text/css" href="/stylesheets/gallery.css"/>
 		<link rel="stylesheet" type="text/css" href="/stylesheets/about.css"/>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/blog.css"/>
 		<link rel="stylesheet" type="text/css" href="/stylesheets/narrow.css" media="screen and (max-width:600px)"/>
 
 	{% include analytics.html %}
@@ -20,14 +17,32 @@
 	<body>
 		{% include header_nav.html %}
 
-		<div id="page">
+		<div id="page" class="post">
 			<img id="logo" src="/images/logo.png" alt="Mason Jar Photography"/>
 			<div id="slogan">Simple. Real. Beautiful.</div>
+
+			<h1><a href="{{page.url}}">{{page.title}}</a></h1>
+			<small class="date">{{page.date | date: "%B %-d, %Y"}}</small>
+
 			<div id="content" class="{{page.route_name}}">
 				{{content}}
 			</div>
 
-			{% include copyright.html %}
+			<div class="pagination">
+				{% if page.previous %}
+					<a href="{{page.previous.url}}" class="prev">Prev</a>
+				{% else %}
+					<span class="prev">Prev</span>
+				{% endif %}
+
+				{% if page.next %}
+					<a href="{{page.next.url}}" class="next">Next</a>
+				{% else %}
+					<span class="next">Next</span>
+				{% endif %}
+
+				{% include copyright.html %}
+			</div>
 		</div>
 	</body>
 </html>

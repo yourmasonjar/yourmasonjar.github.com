@@ -1,0 +1,10 @@
+#page.post h1, #page.post-list h1 {color: #C9B065;}
+
+#page.post-list .post-list-entry {
+	margin-bottom: 6em;
+}
+#page.post-list .read-more {
+	display: block;
+	padding-top: 2em;
+	text-align: right;
+}

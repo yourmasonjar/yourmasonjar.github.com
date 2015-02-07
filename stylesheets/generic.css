@@ -1,0 +1,16 @@
+img {
+	-ms-interpolation-mode: bicubic;
+
+	padding: .5em;
+	background: #fff;
+
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(127,121,102,0.5);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(127,121,102,0.5);
+	box-shadow: 0px 0px 8px 0px rgba(127,121,102,0.5);
+}
+
+hr {
+	display: block;
+	border: 0;
+	border-top: 1px solid #B8AF93;
+}

@@ -1,0 +1,23 @@
+html {
+	padding: 0;
+}
+
+#page {
+	padding: 0;
+	padding-bottom: 3em;
+	border: none;
+}
+
+#nav {
+	position: relative;
+}
+
+#nav li {
+	margin: 1em 2em;
+}
+
+#content img.photographer {
+	float: none;
+	display: block;
+	margin: auto;
+}

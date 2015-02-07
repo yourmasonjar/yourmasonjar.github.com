@@ -1,32 +1,34 @@
-<div id="header">
-	<img id="logo" src="/images/jar_new.png" alt="Mason Jar Photography"/>
-	<ul id="nav">
-		{% if page.name == 'gallery' %}
-			<li class="selected"><a href="/"><img alt="Gallery" src="/images/links_gallery2.png"/></a></li>
-		{% else %}
-			<li><a href="/"><img alt="Gallery" src="/images/links_gallery2.png"/></a></li>
-		{% endif %}
+<ul id="nav">
+	{% if page.route_name == 'home' %}
+		<li class="selected"><a href="/">Home</a></li>
+	{% else %}
+		<li><a href="/">Home</a></li>
+	{% endif %}
 
-		{% if page.name == 'about' %}
-			<li class="selected"><a href="/about.html"><img alt="About" src="/images/links_about2.png"/></a></li>
-		{% else %}
-			<li><a href="/about.html"><img alt="About" src="/images/links_about2.png"/></a></li>
-		{% endif %}
+	{% if page.route_name == 'about' %}
+		<li class="selected"><a href="/about.html">About</a></li>
+	{% else %}
+		<li><a href="/about.html">About</a></li>
+	{% endif %}
 
-		{% if page.name == 'pricing' %}
-			<li class="selected"><a href="/pricing.html"><img alt="Pricing" src="/images/links_pricing2.png"/></a></li>
-		{% else %}
-			<li><a href="/pricing.html"><img alt="Pricing" src="/images/links_pricing2.png"/></a></li>
-		{% endif %}
+	{% if page.route_name == 'pricing' %}
+		<li class="selected"><a href="/pricing.html">Pricing</a></li>
+	{% else %}
+		<li><a href="/pricing.html">Pricing</a></li>
+	{% endif %}
 
-		{% if page.name == 'contact' %}
-			<li class="selected"><a href="/contact.html"><img alt="Contact" src="/images/links_contact2.png"/></a></li>
-		{% else %}
-			<li><a href="/contact.html"><img alt="Contact" src="/images/links_contact2.png"/></a></li>
-		{% endif %}
+	{% if page.route_name == 'contact' %}
+		<li class="selected"><a href="/contact.html">Contact</a></li>
+	{% else %}
+		<li><a href="/contact.html">Contact</a></li>
+	{% endif %}
 
-		<li><a href="http://yourmasonjar.wordpress.com" target="_blank"><img alt="Blog" src="/images/links_blog2.png"/></a></li>
-		<li><a href="http://masonjarphoto.smugmug.com/clients" target="_blank"><img alt="Clients" src="/images/links_clients2.png"/></a></li>
+	{% if page.route_name == 'blog' %}
+		<li class="selected"><a href="/blog/">Blog</a></li>
+	{% else %}
+		<li><a href="/blog/">Blog</a></li>
+	{% endif %}
 
-	</ul>
-</div>
+	<li><a href="http://masonjarphoto.smugmug.com/clients" target="_blank">Clients</a></li>
+
+</ul>

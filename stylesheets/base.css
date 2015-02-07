@@ -1,139 +1,169 @@
 /* Colors:
- *	cream: #f6f1db
- *	blue: #409ca7
- *	brown: #68370b
- *	dark-brown: #2f1f1d
+ *	gold: #C9B065;
+ *	cream-white: #fffefa;
+ *	grey: #7F7966;
+ *	dark-grey: #3f3c32;
  */
 
-img { -ms-interpolation-mode: bicubic; }
-
-@font-face {
-  font-family: 'spirequalLightRegular';
-  src: url("spireq_l-webfont.eot");
-  src: url("spireq_l-webfont.eot?#iefix") format("embedded-opentype"), url("spireq_l-webfont.woff") format("woff"), url("spireq_l-webfont.ttf") format("truetype"), url("spireq_l-webfont.svg#spirequalLightRegular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-html, body {
+html {
 	margin: 0;
-	padding: 0;
-	background: #2f1f1d url(/images/bg.jpg);
-	color: #f6f1db;
+	padding: 3em;
+	padding-top: 4em;
+	background-image: url("/images/bg.png");
+	min-width: 300px;
 }
 
-#header {
-	width: 100%;
-	text-align: center;
-	padding-top: 20px;
+body {
+	font-family: Palatino, Georgia, sans-serif;
+	font-weight: 100;
+	line-height: 1.6em;
+	color: #3f3c32;
 
-	-webkit-box-shadow: #000 0 5px 30px;
-	-moz-box-shadow: #000 0 5px 30px;
-	box-shadow: #000 0 5px 30px;
+	margin: 0;
+	padding: .5em;
+	background: #fffefa;
+	border: 1px solid #FFF2CD;
 
-	border-bottom: 1px solid #ddd;
-	color: #331411;
-	background: #f6f1db;
+	-webkit-box-shadow: 0px 10px 14px 8px rgba(127,121,102,0.5);
+	-moz-box-shadow: 0px 10px 14px 8px rgba(127,121,102,0.5);
+	box-shadow: 0px 10px 14px 8px rgba(127,121,102,0.5);
 }
 
-#logo {
-	width: 350px;
-	margin: auto;
-}
-
+/********************************************************************
+ * Navigation
+********************************************************************/
 #nav {
+	position: fixed;
+	z-index: 10;
+	margin-top: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	font-size: .85em;
+	padding: .8em;
+	line-height: 1.6em;
+	
+	color: #fffefa;
+	background: #3f3c32;
 	list-style: none;
-	padding: 0;
-	margin: 0;
+	text-align: center;
+
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
 }
 
 #nav li {
-	display: inline;
-	padding: 0 32px;
-	overflow: hidden;
-	height: 40px;
-	margin-bottom: 10px;
+	display: inline-block;
+	margin: 0 2em;
 }
-
-#nav li.selected {
-        border: 1px solid #886c6c;
-        border-width: 1px 0 0 0;
-} 
 
 #nav a {
-	position: relative;
-	z-index: 20;
+	color: #fffefa;
 	text-decoration: none;
-	color: #f6f1db;
+	font-variant: small-caps;
 }
 
-#nav a:hover {
-	text-decoration: underline;
-}
+#nav a:hover { color: #C9B065; }
 
-#catch-phrase {
-	position: relative;
-	font-family: "spirequalLightRegular";
-	text-align: center;
-	font-size: 50px;
-	padding: 20px;
+#nav .selected a { text-decoration: underline; color: #C9B065; }
 
-	color: #F6F1DB;
-	z-index: 2;
-}
 
-#images img, #content img {
-	position: relative;
-
-	/*
-	-webkit-box-shadow: #331411 0 0 30px;
-	-moz-box-shadow: #331411 0 0 30px;
-	box-shadow: #331411 0 0 30px;
-	*/
-
-	-webkit-box-shadow: #000 0 0 130px;
-	-moz-box-shadow: #000 0 0 130px;
-	box-shadow: #000 0 0 130px;
-
-	border: 5px solid #fff;
-
+/********************************************************************
+ * Header Elements
+********************************************************************/
+#logo {
 	display: block;
-	margin: 40px auto;
+	position: relative;
+	z-index: 4;
+	max-width: 540px;
+	width: 90%;
+	margin: auto;
+	background: none;
+	border: none;
 	
-	max-width: 90%;
-}
-
-#content img.header {
-	border: 0;
-
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	
-	margin: 40px 0 0 0;
 }
 
-#content {
-	margin: auto;
-	padding: 20px 40px 60px 40px;
-	max-width: 720px;
+#slogan {
+	text-align: center;
 }
 
-#about img.artist {
-	float: right;
-	margin: 0 40px 40px 40px;
+/********************************************************************
+ * Footer Elements
+********************************************************************/
+.pagination {
+	text-align: center;
+	font-size: .8em;
 }
 
-#contact label {
-	display: block;
-}
-
-#contact input, #contact textarea {
-	margin-bottom: 20px;
+.pagination .next, .pagination .prev {
+	margin: 1em;
 }
 
 #copyright {
-	text-align: center;
 	font-size: .8em;
-	margin: 40px auto;
+	text-align: right;
+	margin-top: 3em;
+	margin-bottom: -3em;
+}
+
+
+/********************************************************************
+ * Page Elements
+********************************************************************/
+#page {
+	margin: 0;
+	padding: 3em;
+
+	border: 3px solid #C9B065;
+	background: #fffefa;
+}
+
+#page a {
+	color: #C9B065;
+	text-decoration: none;
+}
+
+#page a:hover { text-decoration: underline; }
+
+#page h1 {
+	text-align: center;
+	margin-top: 1em;
+	font-weight: 100;
+}
+
+#page h1:before, #page h1:after {content: " - ";}
+
+#page h2 {
+	font-weight: 100;
+}
+
+#page .date {
+	display: block;
+	text-align: center;
+	margin-top: -1em;
+}
+
+
+/********************************************************************
+ * Content Elements
+********************************************************************/
+#content {
+	max-width: 35em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content p {
+	margin-bottom: 2em;
+}
+
+#content img {
+	display: block;
+	margin: 3em auto;
+	max-width: 95%;
 }
